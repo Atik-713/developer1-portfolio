@@ -12,6 +12,14 @@
   border: 0px;
   font-size: 20px;
 }
+.btn-l-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 34px 18px 34px;
+  border: 0;
+  font-size: 20px;
+  color: #fff;
+}
 .description {
   color: #757575;
   font-size: 18px;
@@ -93,8 +101,9 @@ header {
   text-align: center;
   font-size: 20px;
 }
-.about-info-container,.what-box-container h4 {
-  color: #474747);
+.about-info-container,
+.what-box-container h4 {
+  color: #474747;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
@@ -104,8 +113,8 @@ header {
   margin-bottom: 130px;
 }
 .what-section-content .description {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .what-box-container {
   display: flex;
@@ -118,12 +127,56 @@ header {
 }
 .what-box-container p {
   width: 200px;
+  color: #757575;
+  font-size: 16px;
 }
 .box {
-     width: 267px;
-  height: 377px;
+  width: 270px;
+  height: 367px;
   padding: 30px;
   border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* edu style */
+.edu-container {
+  display: flex;
+  justify-content: center;
+  gap: 71px;
+  margin-left: 230px;
+  margin-right: 277px;
+}
+.edu-container .title-primary {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 117px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.info-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.info-sub-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.info-description {
+  color: #757575;
+  font-size: 16px;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.edu-container .btn-l-primary {
+  text-align: center;
+}
+.btn-l-primaryy {
+  margin: auto;
 }
