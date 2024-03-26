@@ -174,9 +174,88 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.edu-container .btn-l-primary {
+
+/* .btn {
   text-align: center;
+} */
+.btnn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
 }
-.btn-l-primaryy {
-  margin: auto;
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 117px;
+  margin: 0px 230px;
+}
+.footer-container .title-primary {
+  text-align: left;
+}
+.footer-description {
+  color: #474747;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.message input {
+  width: 461px;
+  height: 64px;
+  border: 0px;
+  margin-top: 24px;
+  border-radius: 5px;
+  background: #fff;
+}
+.message textarea {
+  width: 461px;
+  height: 180px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.message .btn-s-primary {
+  margin-bottom: 130px;
+}
+.hide {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .what-box-container {
+    flex-direction: column;
+    margin: auto;
+  }
+  .edu-container {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .about-section {
+    margin: 10px;
+    padding: 10px;
+  }
+  .about-info-container {
+    flex-direction: column;
+  }
+  .about-info-container p {
+    text-align: left;
+  }
+  .footer-container {
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+  }
+  header {
+    background-image: none;
+    padding: 10px;
+  }
+  .banner-container {
+    flex-direction:column-reverse;
+    margin: 0;
+    padding: 10px;
+  }
+  .banner-container img {
+    width: 90vw;
+  }
 }
