@@ -219,9 +219,7 @@ hr {
 .message .btn-s-primary {
   margin-bottom: 130px;
 }
-.hide {
-  display: none;
-}
+
 @media screen and (max-width: 576px) {
   .what-box-container {
     flex-direction: column;
@@ -264,7 +262,7 @@ hr {
     margin: 0;
     
   }
-  .nav-container .mary {
+  /* .nav-container .mary {
     text-align: left;
-  }
+  } */
 }
